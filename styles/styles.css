@@ -36,6 +36,18 @@ main {
     text-align: center;
 }
 
+aside {
+    max-width: 840px;
+    box-shadow: 0 0 1px gray;
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
 aside img {
     width: 200px;
     height: auto;
