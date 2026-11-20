@@ -14,16 +14,6 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
-
-body {
-    font-family: var(--body-font);
-    color: var(--accent1-color);
-}
-
 header,
 main,
 footer {
@@ -33,18 +23,49 @@ footer {
     color: var(--accent2-color);
 }
 
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
 nav,
 p,
 section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    color: var(--accent2-color);
+    padding: 1rem 2rem 0.1rem;
+    margin-bottom: 0;
+}
+
+header nav {
+    padding: 1px;
+    display: flex;
+
+}
+
+header nav a {
+    background-color: steelblue;
+    display: block;
+    padding: 0.6rem 1.75rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 .socialmedia a {
