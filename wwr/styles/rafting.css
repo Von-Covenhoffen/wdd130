@@ -112,14 +112,18 @@ h2 {
     color: #eee;
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
+figcaption {
+    text-align: center;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid black;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
 }
 
 .socialmedia {
